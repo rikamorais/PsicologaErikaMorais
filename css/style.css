@@ -29,6 +29,11 @@ a:visited {
 #imgAjuda {
     width: 100%;
     margin: 0 auto;
+    display: block;
+}
+
+#imgAjudaMobile {
+    display: none;
 }
 
 div#header {

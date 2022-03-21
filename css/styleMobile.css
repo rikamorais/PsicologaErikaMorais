@@ -30,6 +30,12 @@
     #imgAjuda {
         width: 90%;
         margin: 0 auto;
+        display: none;
+    }
+
+    #imgAjudaMobile {
+        width: 90%;
+        display: block;
     }
     
     div#header {
