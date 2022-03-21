@@ -28,7 +28,7 @@
     }
     
     #imgAjuda {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     
@@ -105,6 +105,7 @@
     
     .frase1 {
         border-color: red;
+        height: 100%;
     }
     
     #fotoPsicologa {
@@ -121,7 +122,7 @@
     }
     
     .classQuemSou {
-        margin-bottom: 20px;
+        margin-bottom: 20px auto 0 auto;
     }
     
     div#imgPsicologia {
@@ -131,15 +132,14 @@
     }
     
     div#contato {
-        margin: 15px;
         text-align: center;
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
     
     div#whatsapp {
         display: flex;
         justify-content: center;
-        margin-top: 0;
+        /* margin-top: 10px; */
     }
     
     .frase3 {
@@ -147,7 +147,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 30px;
+        /* margin: 30px; */
     }
     
     .frase4 {
@@ -155,11 +155,11 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 40px 0;
+        /* margin: 10px 0; */
     }
     
     footer {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
     }
 }
