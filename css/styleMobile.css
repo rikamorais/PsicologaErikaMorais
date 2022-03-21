@@ -3,7 +3,7 @@
         font-family: JosefinSans;
         margin: 0;
         font-size: 20px;
-        line-height: 45px;
+        line-height: 30px;
     }
     
     @font-face {
@@ -51,15 +51,19 @@
     }
     
     .fonte {
-        font-size: 3px;
+        font-size: 8px;
         text-align: right;
-        margin: 0;
-        line-height: 20px;
+        margin-bottom: 10px;
+        line-height: 10px;
         
     }
     
     .fonteImagem {
         font-size: 8px;
+    }
+
+    #imgCerebroSaudavel {
+        width: 80%;
     }
     
     .aspasInicio {
@@ -81,12 +85,12 @@
     
     .frase, .frase1, .frase2 {
         display: flex;
-        width: 700px;
+        width: 80%;
         border: 4px;
         border-style: solid;
         border-radius: 10px;
         border-color: #3473ff;
-        margin: 10px auto;
+        /* margin: 15px auto 20px auto; */
         box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
     }
     
@@ -104,8 +108,9 @@
     }
     
     #fotoPsicologa {
-        width: 200px;
-        float: left;
+        width: 150px;
+        /* float: left; */
+        display: block;
         margin-right: 10px;
     }
     
@@ -128,7 +133,7 @@
     div#contato {
         margin: 15px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
     div#whatsapp {
