@@ -12,7 +12,6 @@ body {
 
 div#container {
     width: 100%;
-    /* background-color: red; */
 }
 
 .colorRed {
@@ -28,7 +27,6 @@ a:visited {
 }
 
 #imgAjuda {
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px; */
     width: 100%;
     margin: 0 auto;
 }
@@ -44,7 +42,6 @@ div#primeiraFrase {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
 }
 
 div#nomePsicologa {
@@ -55,7 +52,8 @@ div#nomePsicologa {
 .fonte {
     font-size: 13px;
     text-align: right;
-    
+    margin: 0;
+    line-height: 50px;
 }
 
 .aspasInicio {
@@ -78,9 +76,6 @@ div#nomePsicologa {
 
 .frase, .frase1, .frase2 {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* text-align: center; */
     display: flex;
     width: 700px;
     height: 150px;
@@ -94,6 +89,7 @@ div#nomePsicologa {
 
 div#divCerebroSaudavel {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fefde8;
