@@ -1,0 +1,165 @@
+body {
+    font-family: JosefinSans;
+    margin: 0;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/josefin.ttf);
+}
+
+div#container {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.colorRed {
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#imgAjuda {
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#primeiraFrase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+div#nomePsicologa {
+    display: flex;
+    justify-content: center;
+}
+
+.fonte {
+    font-size: 13px;
+    text-align: right;
+    
+}
+
+.aspasInicio {
+    /* z-index: 9999; */
+    float: left;
+    margin: -10px 0 0 -7px;
+}
+
+.aspasFinal {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: 90px -7px 0 auto;
+}
+
+.conteudoFrase {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.frase, .frase1, .frase2 {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    display: flex;
+    width: 700px;
+    height: 150px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3473ff;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+}
+
+div#divCerebroSaudavel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefde8;
+    width: 100%;
+}
+
+.frase1 {
+    height: 300px;
+    border-color: red;
+}
+
+#fotoPsicologa {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.frase2 {
+    border-color: white;
+    height: 700px;
+    text-align: justify;
+    box-shadow: none;
+}
+
+.classQuemSou {
+    margin-bottom: 40px;
+}
+
+div#imgPsicologia {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#contato {
+    height: 80px;
+    margin: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#whatsapp {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 0;
+}
+
+.frase3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.frase4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+}
