@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media only screen and (max-width: 830px) {
     body {
         font-family: JosefinSans;
         margin: 0;
@@ -51,19 +51,18 @@
     }
     
     .fonte {
-        font-size: 8px;
+        font-size: 3px;
         text-align: right;
         margin: 0;
+        line-height: 20px;
         
     }
     
     .fonteImagem {
-        display: block;
         font-size: 8px;
     }
     
     .aspasInicio {
-        /* z-index: 9999; */
         float: left;
         margin: -10px 0 0 -7px;
     }
@@ -83,7 +82,6 @@
     .frase, .frase1, .frase2 {
         display: flex;
         width: 700px;
-        height: 150px;
         border: 4px;
         border-style: solid;
         border-radius: 10px;
