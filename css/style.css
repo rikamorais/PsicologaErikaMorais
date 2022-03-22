@@ -83,7 +83,7 @@ div#nomePsicologa {
     display: flex;
     display: flex;
     width: 700px;
-    height: 150px;
+    height: 100%;
     border: 4px;
     border-style: solid;
     border-radius: 10px;
@@ -102,7 +102,7 @@ div#divCerebroSaudavel {
 }
 
 .frase1 {
-    height: 300px;
+    height: 100%;
     border-color: red;
 }
 
@@ -114,7 +114,7 @@ div#divCerebroSaudavel {
 
 .frase2 {
     border-color: white;
-    height: 700px;
+    height: 100%;
     text-align: justify;
     box-shadow: none;
 }
@@ -124,14 +124,14 @@ div#divCerebroSaudavel {
 }
 
 div#imgPsicologia {
-    height: 100px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 div#contato {
-    height: 80px;
+    height: 100%;
     margin: 30px;
     text-align: center;
     margin-top: 50px;
